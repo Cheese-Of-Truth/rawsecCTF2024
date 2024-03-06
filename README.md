@@ -1,14 +1,14 @@
 # rawsecCTF2024
 
-###Challenge: Resign Letter
-###Category: Reverse Engineering
-###Difficulty: Easy
-###Points: 50  
-###Description:
+### Challenge: Resign Letter
+### Category: Reverse Engineering
+### Difficulty: Easy
+### Points: 50  
+### Description:
 
 ![RE with green](https://github.com/Cheese-Of-Truth/rawsecCTF2024/assets/145131434/0e43de75-419d-4f34-869a-a47b0c16242d)
 
-###Walkthrough:
+### Walkthrough:
 
 For this challenge, we got a Resign_letter_template.rar file. By extracting it, we got the Resign letter template.dotm file. Since it is a malware, so I didnt open it directly.
 Instead, I used command "olevba <file> --decode " to analyse the file. From there, I observed that the dotm file will try to download "lenovo.exe" from a github repo when being executed.
@@ -25,11 +25,11 @@ Copy the encoded string and decode it with cyberchef, we got the password which 
 ![cyberchef db64](https://github.com/Cheese-Of-Truth/rawsecCTF2024/assets/145131434/8f65d707-3b10-4cdb-9072-c682389c7ab6)
 
 
-###Challenge: round and round
-###Category: Cryptography
-###Difficulty: Easy
-###Points: 50
-###Description:
+### Challenge: round and round
+### Category: Cryptography
+### Difficulty: Easy
+### Points: 50
+### Description:
 
 For this challenge, a file named "cipher_2.txt" is provided. The cipher already have the flag format RWSC{}.
 
